@@ -1,7 +1,7 @@
 import { memo } from 'react';
 import { Color } from '../../types';
 import { DEFAULT_USER_AVATAR_SIZE } from '../../constants/userGeneration';
-import { AVATAR_VARIANTS, AVATAR_BG_COLORS } from './avatarVariants';
+import { AVATAR_VARIANTS, AVATAR_BG_COLORS } from './Avatar.constants';
 
 type AvatarProps = {
   color: Color;
