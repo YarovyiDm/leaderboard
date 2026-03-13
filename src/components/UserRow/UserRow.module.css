@@ -1,0 +1,68 @@
+.row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  box-shadow: inset 0 0 0 0 transparent;
+  transition: background 0.15s ease, box-shadow 0.15s ease;
+  user-select: none;
+}
+
+.row:hover {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.rankCell {
+  width: var(--rank-col-w, 24px);
+  flex-shrink: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  text-align: right;
+  transition: color 0.15s ease;
+}
+
+.rankCell.rankSelected {
+  color: #7c3aed;
+}
+
+.avatarCell {
+  flex-shrink: 0;
+}
+
+.infoCell {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stats {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.time {
+  font-weight: 500;
+  color: #7c3aed;
+}
+
+.sep {
+  color: #9ca3af;
+}
+
+.speed {
+  color: #6b7280;
+}

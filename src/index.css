@@ -1,0 +1,20 @@
+@property --rank-col-w {
+  syntax: '<length>';
+  inherits: true;
+  initial-value: 23px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #ffffff;
+  color: #1a1a2e;
+  min-width: 320px;
+  max-width: 1920px;
+  margin: 0 auto;
+}

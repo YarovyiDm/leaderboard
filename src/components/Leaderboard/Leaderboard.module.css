@@ -1,0 +1,23 @@
+.leaderboard {
+  width: 100%;
+  max-width: 600px;
+}
+
+.title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  padding: 0 20px 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.list {
+  transition: --rank-col-w 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (max-width: 480px) {
+  .title {
+    padding: 0 12px 12px;
+  }
+}

@@ -1,0 +1,12 @@
+.app {
+  min-height: 100dvh;
+  padding: 24px 16px 48px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 480px) {
+  .app {
+    padding: 12px 0 48px;
+  }
+}

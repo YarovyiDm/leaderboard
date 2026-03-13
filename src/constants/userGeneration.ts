@@ -1,0 +1,10 @@
+export const TOTAL_USERS = 2_000;
+export const BASE_LAP_TIME_MS = 60_000;
+export const LAP_TIME_VARIANCE_MS = 10_000;
+export const MIN_GAP_MS = 2_000;
+export const GAP_VARIANCE_MS = 3_000;
+export const BASE_SPEED_KMH = 95;
+export const SPEED_DECREASE_PER_RANK = 0.05;
+export const SPEED_VARIANCE_KMH = 4;
+export const MIN_SPEED_KMH = 30;
+export const DEFAULT_USER_AVATAR_SIZE = 48;
